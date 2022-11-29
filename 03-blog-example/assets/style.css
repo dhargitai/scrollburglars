@@ -154,9 +154,15 @@ a {
   height: 75px;
   background: papayawhip;
   opacity: 1;
-  transform: translateX(-20px) skew(-24deg);
+  transform: translateX(12px) skew(-24deg);
 }
 
 .heading-content {
   position: relative;
+}
+
+@media (max-width: 825px) {
+  main {
+    overflow: hidden;
+  }
 }
